@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(16, 13, 13, 0.9215686275);
+}
+
+.social-link-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.social-link-div #social-link-profile-card {
+  background-color: rgba(44, 42, 42, 0.8);
+  color: #f7f7f7;
+}
+.social-link-div .content-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-link-div .content-div #avatar-img {
+  width: 5rem;
+  border-radius: 3rem;
+}
+.social-link-div .content-div .avatar-name {
+  margin: 12px 0 3px 0;
+}
+.social-link-div .content-div .avatar-address {
+  font-size: 10px;
+  color: #CDDC39;
+  font-weight: 600;
+}
+.social-link-div .content-div .avatar-designation {
+  font-size: 14px;
+}
+.social-link-div .content-div .social-links ul li {
+  border-radius: 6px;
+  margin: 0 0 12px 0;
+  width: 17rem;
+  background-color: #353333 !important;
+  border-color: #353333 !important;
+  color: #f7f7f7 !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.social-link-div .content-div .social-links ul li:hover {
+  background-color: #CDDC39 !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
